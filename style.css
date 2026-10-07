@@ -1,0 +1,16 @@
+:root{--bg:#F6EFE2;--card:#FFFAF1;--line:#E6D9C2;--ink:#3D2B1F;--soft:#8A7563;--accent:#A8720F}
+@media (prefers-color-scheme: dark){:root{--bg:#1F1813;--card:#2B221B;--line:#3A2E25;--ink:#F3E9DA;--soft:#B19F8C;--accent:#E0A43A}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Hiragino Maru Gothic ProN","Hiragino Sans","Noto Sans JP",system-ui,sans-serif;font-size:15px;line-height:1.85;-webkit-font-smoothing:antialiased}
+.wrap{max-width:680px;margin:0 auto;padding:0 16px 80px}
+header{padding:48px 0 20px}
+h1{font-size:24px;margin:0 0 6px}
+.tag{margin:0;color:var(--soft);font-size:14px}
+h2{font-size:17px;margin:32px 0 8px;color:var(--accent)}
+p{margin:0 0 12px}
+ol{margin:0 0 12px;padding-left:1.4em}
+a{color:var(--accent)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin:14px 0}
+.q{font-weight:700;margin-bottom:4px}
+nav a{margin-right:16px}
+footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line);color:var(--soft);font-size:13px}
